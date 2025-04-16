@@ -18,7 +18,7 @@ Cada projeto está em sua própria pasta e inclui código-fonte, documentação 
 
 | Projeto                            | Descrição                                                                 |
 |------------------------------------|---------------------------------------------------------------------------|
-| [Contador com Botões e OLED](./projetos/countdown_button_display/) | Contador regressivo controlado por botão com exibição em display OLED. |
+| [Contador com Botões e OLED] | Contador regressivo controlado por botão com exibição em display OLED. |
 
 ---
 
