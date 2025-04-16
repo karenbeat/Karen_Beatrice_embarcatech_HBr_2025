@@ -1,4 +1,10 @@
 # Contador com Botões e Display OLED
+# Projetos de Sistemas Embarcados - EmbarcaTech 2025
+
+**Autor:** Karen Beatrice Souza Gonçalves  
+**Turma:** HBr - Brasília  
+**Instituição:** EmbarcaTech - Fase 2  
+
 
 ## 🎯 Objetivo do Projeto
 
