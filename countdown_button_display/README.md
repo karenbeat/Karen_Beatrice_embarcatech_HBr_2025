@@ -1,39 +1,46 @@
-# Projetos de Sistemas Embarcados - EmbarcaTech 2025
+# Contador com Botões e Display OLED
 
-**Autor:** Karen Beatrice Souza Gonçalves  
-**Turma:** HBr - Brasília  
-**Instituição:** EmbarcaTech - Fase 2  
+## 🎯 Objetivo do Projeto
 
----
-
-## 📚 Sobre este repositório
-
-Este repositório contém o projeto do contador decrescente com registro de eventos por interrupção, dentro da residência tecnológica promovida pelo EmbarcaTech - HBr.
-
-Cada projeto está em sua própria pasta e inclui código-fonte, documentação e recursos visuais.
+Implementar um contador regressivo de 9 até 0 controlado por um botão (Botão A), com exibição no display OLED SSD1306. Durante a contagem, um segundo botão (Botão B) registra cliques, que também são mostrados em tempo real. O sistema congela ao fim da contagem e reinicia apenas com nova pressão do Botão A.
 
 ---
 
-## 📂 Lista de Projetos
+## 🔧 Componentes Usados
 
-| Projeto                            | Descrição                                                                 |
-|------------------------------------|---------------------------------------------------------------------------|
-| Contador com Botões e OLED | Contador regressivo controlado por botão com exibição em display OLED. |
+| Componente           | Conexão          |
+|----------------------|------------------|
+| Raspberry Pi Pico    | -                |
+| Display OLED SSD1306 | SDA: GPIO14, SCL: GPIO15 |
+| Botão A              | GPIO5            |
+| Botão B              | GPIO6            |
+| Jumpers, Protoboard  | -                |
 
 ---
 
-## 🛠 Diário de Bordo
+---
 
-### Semana 1
-- Teste de comunicação I2C com OLED usando o display SSD1306.
-- Primeiras leituras com botões e lógica de debounce.
+## ⚡ Pinagem
 
-### Semana 2
-- Integração entre botões e display, com contagem sincronizada.
-- Correção de ruído com debounce e ajustes na leitura do botão B.
+| Pino do Pico | Função               |
+|--------------|----------------------|
+| GPIO14       | SDA (I2C OLED)       |
+| GPIO15       | SCL (I2C OLED)       |
+| GPIO5        | Botão A              |
+| GPIO6        | Botão B              |
+
+---
+
+## 📈 Resultados Esperados
+
+- Exibição do contador de 9 até 0 no display OLED.
+- Cliques no Botão B contabilizados apenas durante a contagem.
+- Display atualizado em tempo real com os dois valores.
+
+---
 
 ---
 
 ## 📜 Licença
 
-Distribuído sob a licença [GPL-3.0](https://choosealicense.com/licenses/gpl-3.0/)
+Licença GPL-3.0 - Veja o arquivo LICENSE para mais detalhes.
