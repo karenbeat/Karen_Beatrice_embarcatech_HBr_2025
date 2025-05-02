@@ -13,7 +13,7 @@ Este repositório reúne os projetos desenvolvidos durante o curso de Sistemas E
 
 | Projeto | Descrição |
 |--------|------------|
-| [Blink](./blink) | Piscar o LED embutido da Pico W usando arquitetura modular em C |
+| [Blink] | Piscar o LED embutido da Pico W usando arquitetura modular em C |
 
 ---
 
