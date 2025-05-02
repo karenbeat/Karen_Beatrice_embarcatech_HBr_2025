@@ -24,14 +24,6 @@ Este repositório reúne os projetos desenvolvidos durante o curso de Sistemas E
 - VS Code com extensão Pico SDK  
 - Ambiente de desenvolvimento com CMake e compilador ARM
 
----
-
-## 📸 Imagens do Setup
-
-![Kit EmbarcaTech](./assets/kit_embarcatech.jpg)  
-*Imagem do kit utilizado durante o desenvolvimento do projeto.*
-
----
 
 ## 📜 Licença
 
