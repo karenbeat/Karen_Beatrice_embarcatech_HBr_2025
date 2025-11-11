@@ -1,67 +1,68 @@
-Projetos de Sistemas Embarcados — EmbarcaTech 2025
+# Projetos de Sistemas Embarcados - EmbarcaTech 2025
 
-Autora: Karen Beatrice Souza Gonçalves
-Curso: Residência Tecnológica em Sistemas Embarcados
-Instituição: EmbarcaTech — HBr
-Local: Brasília, DF
-Período: Abril de 2025
+**Autora:** Karen Beatrice Souza Gonçalves  
+**Curso:** Residência Tecnológica em Sistemas Embarcados  
+**Instituição:** EmbarcaTech - HBr  
+**Local:** Brasília, DF  
+**Período:** Abril de 2025  
 
-Sobre este repositório
+---
 
-Este repositório reúne os projetos desenvolvidos por Karen Beatrice Souza Gonçalves ao longo do curso Residência Tecnológica em Sistemas Embarcados, do programa EmbarcaTech 2025 (HBr).
+## 📘 Sobre este Repositório
 
-Cada projeto foi elaborado com base em conceitos de sistemas embarcados, utilizando a BitDogLab e o microcontrolador Raspberry Pi Pico (RP2040). O objetivo é aplicar práticas de hardware, firmware e software embarcado em projetos funcionais, organizados e documentados.
+Este repositório reúne os projetos desenvolvidos ao longo do curso **Residência Tecnológica em Sistemas Embarcados** do programa **EmbarcaTech 2025 (HBr)**.  
 
-Estrutura do repositório
+Cada projeto foi elaborado aplicando conceitos de **hardware, firmware e software embarcado**, utilizando a **BitDogLab** e o **microcontrolador Raspberry Pi Pico (RP2040)**.
 
-Cada projeto possui sua própria pasta, contendo:
+O objetivo é consolidar os conhecimentos adquiridos durante a residência, por meio do desenvolvimento de sistemas funcionais, bem estruturados e documentados.
 
-src/ ou app/ — Código-fonte principal em C/C++.
+---
 
-include/ ou drivers/ — Bibliotecas e cabeçalhos utilizados.
+## 📁 Estrutura do Repositório
 
-docs/ — Documentação técnica (diagramas, especificações e relatórios).
+Cada projeto possui uma estrutura independente, normalmente organizada da seguinte forma:
 
-assets/ — Recursos visuais, como imagens e vídeos demonstrativos.
+Projeto/
+├── app/ # Código-fonte principal (main.c)
+├── drivers/ # Bibliotecas e controladores de hardware
+├── include/ # Arquivos de cabeçalho (.h)
+├── docs/ # Diagramas, relatórios e documentação técnica
+├── assets/ # Imagens, vídeos e materiais de apoio
+└── README.md # Descrição detalhada do projeto
 
-README.md — Descrição detalhada do projeto, objetivos e instruções de execução.
+---
 
-Conteúdos abordados
+## 💡 Conteúdos Abordados
 
-Os projetos desenvolvidos abrangem os seguintes temas:
+Durante o desenvolvimento dos projetos, são explorados os seguintes temas:
 
-Programação em C e C++ para sistemas embarcados
+- Programação em **C e C++** para sistemas embarcados  
+- Comunicação via **I²C**, **SPI**, **UART** e **PWM**  
+- Utilização de **sensores, atuadores e displays**  
+- Desenvolvimento multitarefa com **FreeRTOS**  
+- Integração com **IoT**, **MQTT** e **criptografia leve**  
+- Aplicação de **boas práticas de versionamento e documentação no GitHub**
 
-Comunicação I²C, SPI, UART e PWM
+---
 
-Utilização de sensores, atuadores e displays
+## ⚙️ Como Utilizar este Repositório
 
-Desenvolvimento com FreeRTOS e gerenciamento de tarefas
+1. Faça um **fork** deste repositório.  
+2. Clone o fork em seu ambiente local:
 
-Integração com IoT, criptografia leve e MQTT
-
-Boas práticas de documentação e versionamento no GitHub
-
-Como utilizar este repositório
-
-Faça um fork deste repositório.
-
-Clone o fork para seu ambiente local:
-
-git clone https://github.com/<seu-usuario>/<seu-fork>.git
-
-
-Explore as pastas dos projetos e siga as instruções individuais em cada README.md.
+   ```bash
+   git clone https://github.com/<seu-usuario>/<seu-fork>.git
+Acesse o diretório desejado e siga as instruções contidas no README.md de cada projeto.
 
 Modifique e amplie o conteúdo conforme o progresso no curso.
 
-Licença e uso
+📄 Licença e Uso
 
-Este repositório foi criado para fins educacionais e didáticos, podendo ser livremente modificado em forks pessoais.
-Créditos devem ser mantidos à autora original: Karen Beatrice Souza Gonçalves.
+Este repositório foi criado para fins educacionais e didáticos, podendo ser modificado livremente em forks pessoais.
+Os créditos devem ser mantidos à autora original: Karen Beatrice Souza Gonçalves.
 
-Contato
+📫 Contato
 
 E-mail: karennbsg@gmail.com
 
-GitHub: karenbeat
+GitHub: github.com/karenbeat
